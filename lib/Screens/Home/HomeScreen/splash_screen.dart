@@ -2,9 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:sharing_square/Const/const.dart';
-import 'package:sharing_square/Screens/Home/HomeScreen/home_screen.dart';
-
+import 'package:socialqrhub/Const/const.dart';
+import 'package:socialqrhub/Screens/Home/HomeScreen/home_screen.dart';
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 

@@ -1,15 +1,12 @@
-// ignore_for_file: avoid_print
+// ignore_for_file: must_be_immutable, avoid_print
 
 import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sharing_square/Const/const.dart';
-
+import 'package:socialqrhub/Const/const.dart';
 import '../Home/HomeScreen/home_screen.dart';
-
-// ignore: must_be_immutable
 class AddAccounts extends StatefulWidget {
   String imageProfile;
   AddAccounts({required this.imageProfile, super.key});

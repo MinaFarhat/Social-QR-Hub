@@ -1,16 +1,28 @@
-# sharing_square
+# Social QR Hub
 
-A new Flutter project.
+A Flutter app to easily share and exchange social media accounts using QR codes.
+
+## Description
+
+Social QR Hub is a Flutter application that allows users to share their social media profiles through QR codes. Users can:
+- Generate their personal QR code containing account links.
+- Scan other users' QR codes to quickly add their social accounts.
+- Share accounts from platforms like Facebook, Telegram, Instagram, and more.
+
+This project was designed to explore Flutter development, QR code generation, and scanning functionality while providing a smooth user experience.
+
+## Features
+
+- Generate personal QR code for social media accounts
+- Scan QR codes to retrieve account links
+- User-friendly interface
+- Support for multiple social platforms
+- Fast and secure sharing
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a copy of the project up and running locally:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MinaFarhat/Social-QR-Hub.git

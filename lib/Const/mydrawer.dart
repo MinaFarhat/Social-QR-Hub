@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sharing_square/Const/const.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
-import 'package:sharing_square/Screens/Home/Drawer/Change%20Password/change_password.dart';
-import 'package:sharing_square/Screens/Home/Drawer/The%20Info/the_info.dart';
-
+import 'package:socialqrhub/Const/const.dart';
+import 'package:socialqrhub/Screens/Home/Drawer/Change%20Password/change_password.dart';
+import 'package:socialqrhub/Screens/Home/Drawer/The%20Info/the_info.dart';
 import '../Screens/Auth/login.dart';
 
 class MyDrawer extends StatefulWidget {
@@ -231,7 +230,7 @@ class _MyDrawerState extends State<MyDrawer> {
                               children: [
                                 TextButton(
                                   style: ButtonStyle(
-                                    overlayColor: MaterialStateProperty.all(
+                                    overlayColor: WidgetStateProperty.all(
                                         Colors.transparent),
                                   ),
                                   onPressed: () {
@@ -250,7 +249,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                 const SizedBox(width: 12.0),
                                 TextButton(
                                   style: ButtonStyle(
-                                    overlayColor: MaterialStateProperty.all(
+                                    overlayColor: WidgetStateProperty.all(
                                         Colors.transparent),
                                   ),
                                   onPressed: () {
@@ -323,7 +322,7 @@ class _MyDrawerState extends State<MyDrawer> {
                               children: [
                                 TextButton(
                                   style: ButtonStyle(
-                                    overlayColor: MaterialStateProperty.all(
+                                    overlayColor: WidgetStateProperty.all(
                                         Colors.transparent),
                                   ),
                                   onPressed: () {
@@ -342,7 +341,7 @@ class _MyDrawerState extends State<MyDrawer> {
                                 const SizedBox(width: 12.0),
                                 TextButton(
                                   style: ButtonStyle(
-                                    overlayColor: MaterialStateProperty.all(
+                                    overlayColor: WidgetStateProperty.all(
                                         Colors.transparent),
                                   ),
                                   onPressed: () {

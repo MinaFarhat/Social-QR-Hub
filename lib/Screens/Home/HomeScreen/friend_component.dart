@@ -2,8 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sharing_square/Const/const.dart';
-
+import 'package:socialqrhub/Const/const.dart';
 import 'friend_details.dart';
 
 class TheInfoComponent extends StatefulWidget {

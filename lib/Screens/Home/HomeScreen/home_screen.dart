@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sharing_square/Const/const.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
+import 'package:socialqrhub/Const/const.dart';
 
 import '../../../Const/mydrawer.dart';
 import 'friend_component.dart';

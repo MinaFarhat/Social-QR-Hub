@@ -7,9 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sharing_square/Const/const.dart';
-import 'package:sharing_square/Screens/Auth/login.dart';
-
+import 'package:socialqrhub/Const/const.dart';
+import 'package:socialqrhub/Screens/Auth/login.dart';
 import '../Home/HomeScreen/home_screen.dart';
 
 class SignUp extends StatefulWidget {

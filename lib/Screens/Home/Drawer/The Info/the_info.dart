@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
-import 'package:sharing_square/Const/const.dart';
-
+import 'package:socialqrhub/Const/const.dart';
 import 'edit_info.dart';
-
 class TheInfo extends StatefulWidget {
   const TheInfo({super.key});
 
@@ -183,7 +181,7 @@ class _TheInfoState extends State<TheInfo> {
                           TextButton(
                             style: ButtonStyle(
                               overlayColor:
-                                  MaterialStateProperty.all(Colors.transparent),
+                                  WidgetStateProperty.all(Colors.transparent),
                             ),
                             onPressed: () {
                               Navigator.of(context).pop();
@@ -201,7 +199,7 @@ class _TheInfoState extends State<TheInfo> {
                           TextButton(
                             style: ButtonStyle(
                               overlayColor:
-                                  MaterialStateProperty.all(Colors.transparent),
+                                  WidgetStateProperty.all(Colors.transparent),
                             ),
                             onPressed: () {
                               Navigator.of(context).pop();

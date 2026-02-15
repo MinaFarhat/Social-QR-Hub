@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
-import 'package:sharing_square/Const/const.dart';
-import 'package:sharing_square/Screens/Auth/login.dart';
-
+import 'package:socialqrhub/Const/const.dart';
+import 'package:socialqrhub/Screens/Auth/login.dart';
 class ChangePassword extends StatefulWidget {
   const ChangePassword({super.key});
 
